@@ -45,7 +45,7 @@
 							<configuration>
 								<projectName>CBS-MobileApp-Authentication</projectName>
 								<outputDirectory>${project.build.directory}/cbs-cucumber-reports</outputDirectory>
-								<cucumberOutput>${project.build.directory}/cbs-cucumber-reports</cucumberOutput>
+								<cucumberOutput>${project.build.directory}/cbs-cucumberJVM-reports/cucumber.json</cucumberOutput>
 								<skippedFails> true </skippedFails>
 								<enableFlashCharts>true</enableFlashCharts>
 								<buildNumber>01</buildNumber>
