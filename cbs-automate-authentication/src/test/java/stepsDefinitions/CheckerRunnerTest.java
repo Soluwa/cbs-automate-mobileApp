@@ -6,7 +6,7 @@ import cucumber.api.java.en.When;
 import utils.Calculator;
 import utils.Setup;
 
-public class CheckerRunner extends Setup{
+public class CheckerRunnerTest extends Setup{
 
 	Calculator calculator;
 	
@@ -18,7 +18,7 @@ public class CheckerRunner extends Setup{
 	@When("I do addition of two numbers")
 	public void i_do_addition_of_two_numbers() {
 	    calculator = new Calculator();
-	    calculator.add_2Numbers(7, 5);
+	    calculator.add_2Numbers(9, 8);
 	}
 
 	@Then("I should get the right result")
